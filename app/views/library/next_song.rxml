@@ -1,0 +1,5 @@
+xml.instruct!
+xml.song do
+  xml.path @song.song_path
+  xml.info "#{@song.artist} - #{@song.title} - #{@song.album.name if @song.album} - #{@song.track if @song.track} - #{@song.length.to_i if @song.length}"
+end

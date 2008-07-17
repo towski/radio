@@ -1,0 +1,30 @@
+development:
+  adapter: mysql
+  host: localhost
+  database: radio_dev
+  username: root
+  socket: /var/run/mysqld/mysqld.sock
+
+test:
+  adapter: mysql
+  host: localhost
+  database: radio_dev
+  username: root
+  socket: /var/run/mysqld/mysqld.sock
+
+#test:
+  #adapter: mysql
+
+#test:
+  #adapter: mysql
+  #database: wed_test
+  #username: wed
+  #password: s9m2b3c5z6
+  #socket: /var/run/mysqld/mysqld.sock
+#
+#production:
+  #adapter: mysql
+  #database: wed_pr
+  #username: wed
+  #password: s9m2b3c5z6
+  #socket: /var/run/mysqld/mysqld.sock

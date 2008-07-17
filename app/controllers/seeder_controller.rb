@@ -1,0 +1,2 @@
+class SeederController < ApplicationController
+end

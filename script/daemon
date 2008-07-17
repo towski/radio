@@ -1,0 +1,31 @@
+#!/usr/bin/ruby
+require 'rubygems'
+require 'daemons'
+require 'trollop'
+
+applications = {
+  "octfcu" => './get_octfcu.rb',
+  "filer" => './file_torrents.rb',
+  "downloader" => './download_torrents.rb'
+}
+Home="/root/rails/ballerina/script/"
+Dir.chdir(Home)
+
+opts = Trollop::options do
+  opt :app_name, "Application name", :type => String
+  opt :ARGV, "Start or stop", :default => "start", :type => String
+  opt :dir, "Directory for pids", :default => "pids", :type => String
+  opt :multiple, "Allow multiple?", :default  => false
+  opt :ontop, "Run on top", :default => false
+  opt :mode, "Mode", :default => "exec", :type => String
+  opt :backtrace, "Give a backtrace on failure?", :default => true
+  opt :monitor, "Continue to monitor daemon?", :default => false
+end
+
+Trollop::die(:app_name, "must give an appname") unless opts[:app_name]
+Trollop::die(:app_name, "must be in "+applications.keys.join(',')) unless applications[opts[:app_name]] 
+
+opts[:ARGV] = [opts[:ARGV]]
+#p opts
+
+Daemons.run(Home+applications[opts[:app_name]], opts)

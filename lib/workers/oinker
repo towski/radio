@@ -1,0 +1,30 @@
+class OinkWorker < BackgrounDRb::Rails
+  def do_work(args)
+    @filer = TorrentFiler.new(Library.find(4))
+    @filer.agent.get("http://oink.cd/login.php")
+    @image = @filer.agent.current_page.search("//img")[2].raw_attributes["src"]
+    sleep 200
+  end
+
+  def get_image
+    3.times do 
+      break if @image
+      sleep 3
+    end
+    unless @image
+      return false
+    else
+      @image
+    end
+  end
+
+  def enter_magic_words magic_words
+    form = @filer.agent.current_page.forms.first
+    form.fields[0].value = "towski"
+    form.fields[1].value = "s9m2b3"
+    form.fields[2].value = magic_words
+    @filer.agent.submit form
+  end
+
+  attr :filer
+end

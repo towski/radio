@@ -1,0 +1,10 @@
+
+<% if @image %>
+  <img src="http://oink.cd/<%= @image %>"/>
+  <% form_tag :action => :oink_login do |form| %>
+  <%= text_field_tag "magic_words", "Magic words:" %>
+  <%= text_field_tag "magic_words", "Magic words:" %>
+  <% end %>
+<% else %>
+  Login failed, probably overdosed
+<% end %>

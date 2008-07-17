@@ -1,0 +1,5 @@
+.svn
+tmp
+db
+log
+config/database.yml

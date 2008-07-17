@@ -1,0 +1,59 @@
+<%= javascript_include_tag "prototype" %>
+<%= link_to "Listen", "http://www.bymatthew.com:8000/ices.m3u" %>
+<%= link_to "Skip current song", :action => :skip_song %>
+<br/>
+<br/>
+
+<style type="text/css" >
+.wide {
+width:200px;
+display:inline;
+}
+</style>
+
+<div id="artist_id_container" class='wide'>
+  <% form_tag({:action => :artist_request}, :class => "wide") do %>
+    <select name="artist_id" id="artist_id" class='wide'>
+       <option value="">Select Artist</option>
+       <% @artists.each do |artist| %>
+          <option value="<%= artist.id %>">
+             <%= artist.name.titleize %>
+          </option>
+       <% end %>
+    </select>
+    <%= submit_tag "request artist" %>
+  <% end %>
+</div>
+
+<%= observe_field("artist_id",
+   :frequency => 1.00,
+   :update => "album_id_container",
+   :url => { :action => :get_albums },
+   :with => "'artist_id='+value",
+   :success => "eval(request.responseText)")
+   %>
+
+
+<div id="album_id_container" class='wide'>
+  <select name="find_songs[album_id]" id="find_songs[album_id]" disabled="disabled" class='wide'>
+     <option value="">No Album</option>
+  </select>
+</div>
+
+<div id="song_id_container" class='wide'>
+   <select name="find_song[album_id]" disabled="disabled" class='wide'>
+      <option value="">No Song</option>
+   </select>
+</div>
+
+<div id="requests">
+  Requests:
+  <ul style="list-style:none">
+    <% @requests.each do |req| %>
+      <li>
+        <%= req.request_string %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+

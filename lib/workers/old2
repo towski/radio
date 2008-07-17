@@ -1,0 +1,39 @@
+# Put your code that runs your task inside the do_work method
+# it will be run automatically in a thread. You have access to
+# all of your rails models if you set load_rails to true in the
+# config file. You also get @logger inside of this class by default.
+class FilerWorker < BackgrounDRb::Rails
+  
+  # This method is called in it's own new thread when you
+  # call new worker. args is set to :args
+  def do_work(args)
+    @filer = TorrentFiler.new 
+    #args[:dir]
+
+    loop do
+      begin
+        begin 
+          @status = "getting torrents"
+          @filer.login
+          @filer.goto_most_seeders
+          @filer.download_current_page
+          @filer.goto_highest_rated
+          @filer.download_current_page
+          @filer.logout 
+        rescue EOFError => e
+          @filer.log_error( $! )
+        end
+        @status = "sleeping"
+        sleep 60*60
+      rescue 
+        @filer.log_error( $! )
+        exit
+      end
+    end
+  end
+
+  def status
+    @status
+  end
+
+end

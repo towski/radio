@@ -1,0 +1,16 @@
+<% form_tag({:action => :album_request}, :class => "wide") do %>
+  <select id='album_id' name='album_id' class='wide'>
+    <option value=''>Select album:</option>
+    <% @albums.each do |album| %>
+      <option value='<%= album.id %>'><%= album.name %></option>
+    <% end %>
+  </select>
+  <%= submit_tag "request album" %>
+<% end %>
+
+<%= observe_field("album_id",
+   :frequency => 1.00,
+   :update => "song_id_container",
+   :url => { :action => :get_songs },
+   :with => "'album_id='+value")
+   %>

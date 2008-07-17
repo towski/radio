@@ -1,0 +1,47 @@
+require "rubytorrent"
+require 'ftools'
+# Put your code that runs your task inside the do_work method
+# it will be run automatically in a thread. You have access to
+# all of your rails models if you set load_rails to true in the
+# config file. You also get @logger inside of this class by default.
+class DownloaderWorker < BackgrounDRb::MetaWorker
+  set_worker_name :downloader_worker
+
+  def create(args)
+    @percent = 0
+    begin
+      proxy = ENV["http_proxy"]
+      torrent = Torrent.find(args[:id])
+      begin mi = RubyTorrent::MetaInfo.from_location(torrent.path, proxy)
+      rescue RubyTorrent::MetaInfoFormatError, RubyTorrent::BEncodingError => e
+        die %{Error: can't parse metainfo file "#{torrent.path}"---maybe not a .torrent?}
+      rescue RubyTorrent::TypedStructError => e
+      rescue IOError, SystemCallError => e
+        die %{Error: can't read file "#{torrent}": #{e.message}}
+      end
+
+      dest = DOWNLOAD_DIR+File.basename(torrent.path).sub(/\.torrent/,'')
+      package = RubyTorrent::Package.new(mi, dest) 
+      bt = RubyTorrent::BitTorrent.new(mi, package, :http_proxy => proxy, :host => '72.232.60.51') #, :dlratelim => 20*1024, :ulratelim => 10*1024)
+      bt.on_event(self, :complete) do
+        l = Library.find(:first)
+        l.add_to_library dest, torrent
+        FileUtils.move(dest, ALBUM_DIR+File.basename(dest))
+        @percent = 100
+        torrent.downloaded = true
+        torrent.save
+      end
+      @percent = bt.percent_completed 
+      while @percent < 100 and !torrent.downloaded
+        sleep 10
+        @percent = bt.percent_completed
+      end
+    rescue 
+      @logger.info $!
+    end
+  end
+
+  def percent
+    @percent
+  end
+end

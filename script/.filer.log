@@ -1,0 +1,40 @@
+# Logfile created on Sun Jul 15 13:04:41 CDT 2007 by logger.rb/1.5.2.7
+I, [2007-07-15T13:04:41.174437 #13969]  INFO -- : Getting indietorrents...
+I, [2007-07-15T13:04:44.253085 #13969]  INFO -- : Getting:/download.php/95999/Widow%20City.torrent
+I, [2007-07-15T13:04:44.478328 #13969]  INFO -- : Getting:/download.php/95965/Mount%20Eerie%20-%20Mount%20Eerie%20Pts.%206%20&%207.torrent
+I, [2007-07-15T13:04:44.538827 #13969]  INFO -- : Getting:/download.php/95747/Tunng%20-%20Good%20Arrows.torrent
+I, [2007-07-15T13:04:46.921273 #13969]  INFO -- : Getting:/download.php/95993/Fire%20Baptism.torrent
+I, [2007-07-15T13:04:47.087894 #13969]  INFO -- : Getting:/download.php/95994/As%20You%20Sow,%20So%20Shall%20You%20Reap.torrent
+I, [2007-07-15T13:04:47.183046 #13969]  INFO -- : Getting:/download.php/95322/Wareika_Hill_Sounds-Wareika_Hill_Sounds-RETAIL-2007.torrent
+I, [2007-07-15T13:04:47.287254 #13969]  INFO -- : Getting:/download.php/95976/Mr.%20Beast.torrent
+I, [2007-07-15T13:04:47.903733 #13969]  INFO -- : Signed out status is: 200
+I, [2007-07-15T13:04:47.904069 #13969]  INFO -- : Finished marshalling torrents to /music/torrents/torrent_object. Going to sleep
+I, [2007-07-18T01:39:37.652453 #22978]  INFO -- : Getting indietorrents...
+I, [2007-07-18T01:39:40.026543 #22978]  INFO -- : Getting:/download.php/96223/Kevin%20Drew%20Spirit%20If.._.torrent
+I, [2007-07-18T01:39:40.173360 #22978]  INFO -- : Getting:/download.php/96192/Calexico%20-%20Tool%20Box%2091200793.torrent
+I, [2007-07-18T01:39:40.267384 #22978]  INFO -- : Getting:/download.php/96196/Panda_Bear-Take_Pills.torrent
+I, [2007-07-18T01:39:42.493764 #22978]  INFO -- : Getting:/download.php/96201/Worn%20Copy.torrent
+I, [2007-07-18T01:39:42.625296 #22978]  INFO -- : Getting:/download.php/94749/Streams%2001.torrent
+I, [2007-07-18T01:39:43.094157 #22978]  INFO -- : Signed out status is: 200
+I, [2007-07-19T20:55:58.101077 #27794]  INFO -- : Getting indietorrents...
+I, [2007-07-19T20:56:00.511094 #27794]  INFO -- : Getting:/download.php/96273/Gyllyng%20Street.torrent
+I, [2007-07-19T20:56:02.871868 #27794]  INFO -- : Getting:/download.php/96302/mf%20doom%20--%20operation%20doomsday.torrent
+I, [2007-07-19T20:56:02.992319 #27794]  INFO -- : Getting:/download.php/96282/S%E9bastien%20Schuller%20-%20Happiness%20(2005).torrent
+I, [2007-07-19T20:56:03.085339 #27794]  INFO -- : Getting:/download.php/96286/Onelinedrawing%20-%20visitor.torrent
+I, [2007-07-19T20:56:03.185979 #27794]  INFO -- : Getting:/download.php/96253/birchville%20cat%20motel%20--%20birds%20call%20home%20their%20dead%20(cd,%202007,%20celebrate%20psi%20phenomenon).torrent
+I, [2007-07-19T20:56:03.662523 #27794]  INFO -- : Signed out status is: 200
+I, [2007-07-20T01:14:08.514116 #28355]  INFO -- : Getting indietorrents...
+I, [2007-07-20T01:14:13.128874 #28355]  INFO -- : Getting:/download.php/96304/91200793%20vampire%20weekend.torrent
+I, [2007-07-20T01:14:14.241551 #28355]  INFO -- : Getting:/download.php/96323/Grand%20Buffet%20-%20Cigarette%20Beach.torrent
+I, [2007-07-20T01:14:14.331366 #28355]  INFO -- : Getting:/download.php/96319/Grand%20Buffet%20-%20Pittsburgh%20Hearts.torrent
+I, [2007-07-20T01:14:14.444699 #28355]  INFO -- : Getting:/download.php/96318/All%20Things,%20Forests.torrent
+I, [2007-07-20T01:14:14.525759 #28355]  INFO -- : Getting:/download.php/96317/Far%20From%20Refuge.torrent
+I, [2007-07-20T01:14:14.684112 #28355]  INFO -- : Getting:/download.php/96316/Young%20Galaxy.torrent
+I, [2007-07-20T01:14:14.763658 #28355]  INFO -- : Getting:/download.php/96315/Fort%20Nightly.torrent
+I, [2007-07-20T01:14:14.896051 #28355]  INFO -- : Getting:/download.php/96314/Peonies.torrent
+I, [2007-07-20T01:21:50.481489 #28376]  INFO -- : Getting indietorrents...
+I, [2007-07-20T01:21:55.811899 #28376]  INFO -- : Getting:/download.php/96314/Peonies.torrent
+I, [2007-07-20T01:22:45.314152 #28382]  INFO -- : Getting indietorrents...
+I, [2007-07-20T01:22:46.618296 #28382]  INFO -- : Getting:/download.php/96314/Peonies.torrent
+I, [2007-07-20T01:23:07.676560 #28384]  INFO -- : Getting indietorrents...
+I, [2007-07-20T01:23:12.382360 #28384]  INFO -- : Signed out status is: 200

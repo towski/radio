@@ -1,0 +1,330 @@
+# Logfile created on Sat Jun 23 19:21:02 CDT 2007 by logger.rb/1.5.2.7
+E, [2007-06-23T19:21:02.635697 #9185] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:21:02.635907 #9185] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:21:02.635979 #9185] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:21:02.636536 #9185] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:21:02.641238 #9185] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:28
+E, [2007-06-23T19:21:02.643921 #9185] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:21:40.714452 #9188] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:21:40.714781 #9188] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:21:40.714867 #9188] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:21:40.715434 #9188] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:21:40.720105 #9188] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:28
+E, [2007-06-23T19:21:40.722678 #9188] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:23:43.949685 #9193] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:23:43.949993 #9193] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:23:43.950079 #9193] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:23:43.950654 #9193] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:23:43.967810 #9193] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:23:43.970478 #9193] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:24:08.981438 #9197] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:24:08.981741 #9197] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:24:08.981826 #9197] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:24:08.982388 #9197] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:24:09.000224 #9197] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:24:09.002938 #9197] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:25:51.437557 #9204] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:25:51.437882 #9204] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:25:51.437983 #9204] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:25:51.438536 #9204] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:25:51.448695 #9204] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:25:51.451366 #9204] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:25:54.907240 #9207] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:25:54.907560 #9207] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:25:54.907676 #9207] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:25:54.908210 #9207] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:25:54.912688 #9207] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:25:54.915317 #9207] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:25:58.168641 #9210] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:25:58.168973 #9210] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:25:58.169065 #9210] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:25:58.182665 #9210] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:25:58.187438 #9210] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:25:58.190049 #9210] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:25:59.093746 #9213] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:25:59.094070 #9213] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:25:59.094158 #9213] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:25:59.094709 #9213] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:25:59.099372 #9213] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:25:59.102031 #9213] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:25:59.939320 #9216] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:25:59.939654 #9216] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:25:59.939744 #9216] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:25:59.940273 #9216] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:3
+E, [2007-06-23T19:25:59.945023 #9216] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/app/controllers/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon.rb:29
+E, [2007-06-23T19:25:59.960411 #9216] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon.rb:4
+E, [2007-06-23T19:39:43.541397 #9312] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:39:43.541698 #9312] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:39:43.554671 #9312] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:39:43.555359 #9312] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:3
+E, [2007-06-23T19:39:43.560083 #9312] ERROR -- : no such file to load -- torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/ruby/mechanical-demons/script/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:29
+E, [2007-06-23T19:39:43.562642 #9312] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:4
+E, [2007-06-28T23:20:32.319323 #25273] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-28T23:20:32.328529 #25273] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-28T23:20:32.328616 #25273] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-28T23:20:32.329126 #25273] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:3
+E, [2007-06-28T23:20:32.334031 #25273] ERROR -- : no such file to load -- /root/ruby/mechanical-demons/script/torrent_filer (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/root/rails/mechanical-demons/script/file_torrents.rb:1
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:31
+E, [2007-06-28T23:20:32.336766 #25273] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:4
+E, [2007-07-11T19:28:19.086976 #25531] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-07-11T19:28:19.104018 #25531] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-07-11T19:28:19.104101 #25531] ERROR -- : exception reentered (fatal)
+
+E, [2007-07-11T19:28:25.000465 #25531] ERROR -- : undefined method `uri' for "":String (NoMethodError)
+/usr/lib/ruby/gems/1.8/gems/mechanize-0.6.8/lib/mechanize.rb:334:in `to_absolute_uri'
+/usr/lib/ruby/gems/1.8/gems/mechanize-0.6.8/lib/mechanize.rb:193:in `click'
+/root/rails/ballerina/script/torrent_filer.rb:27:in `login'
+/root/rails/ballerina/script/file_torrents.rb:8
+/root/rails/ballerina/script/file_torrents.rb:5
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:31
+E, [2007-07-11T19:28:25.000759 #25531] ERROR -- : exit (SystemExit)
+/root/rails/ballerina/script/file_torrents.rb:21:in `exit'
+/root/rails/ballerina/script/file_torrents.rb:21
+/root/rails/ballerina/script/file_torrents.rb:5
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:31
+E, [2007-07-11T19:28:25.123764 #25531] ERROR -- : end of file reached (EOFError)
+/usr/lib/ruby/1.8/net/protocol.rb:133:in `sysread'
+/usr/lib/ruby/1.8/net/protocol.rb:133:in `rbuf_fill'
+/usr/lib/ruby/1.8/timeout.rb:56:in `timeout'
+/usr/lib/ruby/1.8/timeout.rb:76:in `timeout'
+/usr/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+/usr/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+/usr/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+/usr/lib/ruby/1.8/net/http.rb:1987:in `read_status_line'
+/usr/lib/ruby/1.8/net/http.rb:1976:in `read_new'
+/usr/lib/ruby/1.8/net/http.rb:1046:in `request'
+/usr/lib/ruby/gems/1.8/gems/mechanize-0.6.8/lib/mechanize.rb:443:in `fetch_page'
+/usr/lib/ruby/gems/1.8/gems/mechanize-0.6.8/lib/mechanize.rb:172:in `get'
+/usr/lib/ruby/gems/1.8/gems/mechanize-0.6.8/lib/mechanize.rb:196:in `click'
+/root/rails/ballerina/script/torrent_filer.rb:60:in `goto_highest_rated'
+/root/rails/ballerina/script/file_torrents.rb:11
+/root/rails/ballerina/script/file_torrents.rb:5
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:31

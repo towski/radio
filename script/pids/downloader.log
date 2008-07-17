@@ -1,0 +1,77 @@
+# Logfile created on Sat Jun 23 19:44:59 CDT 2007 by logger.rb/1.5.2.7
+E, [2007-06-23T19:44:59.390528 #9335] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:44:59.390745 #9335] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:44:59.390831 #9335] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:44:59.391384 #9335] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:3
+E, [2007-06-23T19:44:59.396155 #9335] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception
+	      ^
+/root/ruby/mechanical-demons/script/download_torrents.rb:54: parse error, unexpected kEND, expecting $ (SyntaxError)
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:29
+E, [2007-06-23T19:44:59.409304 #9335] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception
+	      ^
+/root/ruby/mechanical-demons/script/download_torrents.rb:54: parse error, unexpected kEND, expecting $ (SyntaxError)
+
+E, [2007-06-23T19:44:59.409415 #9335] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception
+	      ^ (SyntaxError)
+
+E, [2007-06-23T19:44:59.409476 #9335] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception (SyntaxError)
+
+E, [2007-06-23T19:44:59.412085 #9335] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:4
+E, [2007-06-23T19:45:01.064182 #9338] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2007-06-23T19:45:01.064522 #9338] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2007-06-23T19:45:01.064611 #9338] ERROR -- : exception reentered (fatal)
+
+E, [2007-06-23T19:45:01.065172 #9338] ERROR -- : no such file to load -- daemons (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:3
+E, [2007-06-23T19:45:01.082511 #9338] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception
+	      ^
+/root/ruby/mechanical-demons/script/download_torrents.rb:54: parse error, unexpected kEND, expecting $ (SyntaxError)
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:158:in `start_load'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/application.rb:235:in `start'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/controller.rb:69:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:136:in `run'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+/usr/lib/ruby/gems/1.8/gems/daemons-1.0.6/lib/daemons.rb:135:in `run'
+./daemon:29
+E, [2007-06-23T19:45:01.082754 #9338] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception
+	      ^
+/root/ruby/mechanical-demons/script/download_torrents.rb:54: parse error, unexpected kEND, expecting $ (SyntaxError)
+
+E, [2007-06-23T19:45:01.082866 #9338] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception
+	      ^ (SyntaxError)
+
+E, [2007-06-23T19:45:01.082928 #9338] ERROR -- : /root/ruby/mechanical-demons/script/download_torrents.rb:50: parse error, unexpected kRESCUE, expecting kEND
+	rescue Exception (SyntaxError)
+
+E, [2007-06-23T19:45:01.085511 #9338] ERROR -- : no such file to load -- trollop (LoadError)
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./daemon:4

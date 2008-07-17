@@ -1,0 +1,9 @@
+<% form_tag({:action => :song_request}, :class => "wide") do %>
+  <select id='song_id' name='song_id' class='wide'>
+    <option value=''>Select song:</option>
+    <% @songs.each do |song| %>
+      <option value='<%= song.id %>'><%= song.track if song.track %> - <%= song.title.capitalize if song.title %> </option>
+    <% end %>
+    <%= submit_tag "request song" %>
+  </select>
+<% end %>
