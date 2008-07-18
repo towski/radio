@@ -2,13 +2,14 @@ require 'mp3info'
 require 'id3lib'
 
 class Song  < ActiveRecord::Base
+  HOME_DIR = "/music/albums/"
   validates_presence_of :song_path
   belongs_to :album
 
   after_create :set_variables
 
 	def set_variables
-    Dir.chdir("/music/albums/")
+    Dir.chdir(HOME_DIR)
     begin
       unless File.size(song_path) > 0
         File.unlink(song_path)
